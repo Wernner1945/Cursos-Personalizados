@@ -1,0 +1,29 @@
+:root {
+    --color-primary: #4e73df;
+    --color-secondary: #1cc88a;
+    --color-dark: #2c3e50;
+    --color-science: #6f42c1;
+}
+
+.science-navbar {
+    background-color: var(--color-dark);
+}
+
+.btn-volver {
+    background-color: var(--color-science);
+    color: white;
+}
+
+.science-card {
+    border-top: 4px solid var(--color-science);
+    transition: all 0.3s ease;
+}
+
+.science-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(111, 66, 193, 0.1);
+}
+
+.science-badge {
+    background-color: var(--color-science);
+}
